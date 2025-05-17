@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Coin
+  - Enemy
+  - Chest
+  - Heart
+  - Key
+  - Key_vip
+  - Star
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemies
+  - Arrow
+  - Trap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3865467129
+    locked: 0
+  - name: Tree
+    uniqueID: 2029347097
+    locked: 0
+  - name: Ground
+    uniqueID: 1766995579
+    locked: 0
+  - name: Foreground
+    uniqueID: 1750154103
+    locked: 0
+  - name: Traps
+    uniqueID: 3221508845
+    locked: 0
+  - name: Coins
+    uniqueID: 782040763
+    locked: 0
+  - name: Weapons
+    uniqueID: 3940665161
+    locked: 0
+  - name: UI
+    uniqueID: 465332275
+    locked: 0
+  - name: Items
+    uniqueID: 3043995123
+    locked: 0
+  - name: Enemy
+    uniqueID: 1146054433
+    locked: 0
+  - name: Player
+    uniqueID: 45449569
+    locked: 0
+  m_RenderingLayers:
+  - Default

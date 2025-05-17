@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5607261167014708640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2359782124500425194}
+  - component: {fileID: 6298301917641811575}
+  - component: {fileID: 4887101352316137082}
+  - component: {fileID: 8192238969914206127}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2359782124500425194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607261167014708640}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9563001, y: 3.0510442, z: -0.009837172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6298301917641811575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607261167014708640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec586d8bf2d48c64d81f16134df46f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapButtons: []
+  currentMapIndex: 0
+--- !u!114 &4887101352316137082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607261167014708640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1501daa90fd3f83409af70b0f710f418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameBar: {fileID: 0}
+  fillBar: {fileID: 0}
+  healthText: {fileID: 0}
+  fullHealthColor: {r: 0, g: 1, b: 0, a: 1}
+  lowHealthColor: {r: 1, g: 0, b: 0, a: 1}
+  lowHealthThreshold: 0.3
+  useAnimations: 1
+  animationSpeed: 5
+--- !u!114 &8192238969914206127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607261167014708640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8014f4363cb4ef4483ed4e138f39c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUnlocked: 00000000000000
+  mapCompleted: 00000000000000
+  currentMap: 1
+  requiredCoins: 000000001e0000002d0000003c000000500000006400000000000000
+  collectedCoins: 00000000000000000000000000000000000000000000000000000000
+  requiredChests: 00000000010000000100000001000000000000000000000000000000
+  collectedChests: 00000000000000000000000000000000000000000000000000000000
+  requireDeadKnight: 00000000010001
+  defeatedDeadKnight: 00000000000000
+  requireAshe: 00000000000101
+  defeatedAshe: 00000000000000
+  requireZombie: 00000000000001
+  defeatedZombie: 00000000000001
+  resetProgressOnStart: 1
+  unlockAllMaps: 1

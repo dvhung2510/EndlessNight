@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf639a80ae04ac48b2ad163c7c3633e, type: 3}
+  m_Name: NewNPCDialogue
+  m_EditorClassIdentifier: 
+  npcName: Lionel Messi
+  npcPortrait: {fileID: 21300000, guid: 4805468f34f2a734aa5903ad9992425a, type: 3}
+  dialogueLines:
+  - "Ch\xE0o m\u1EEBng ng\u01B0\u1EDDi b\u1EA3o v\u1EC7 Elara, ta \u0111\xE3 ch\u1EDD
+    ng\u01B0\u01A1i t\u1EEB l\xE2u - c\xE1c tinh th\u1EC3 ma thu\u1EADt \u0111ang
+    d\u1EA7n b\u1ECB \xF4 nhi\u1EC5m b\u1EDFi b\xF3ng t\u1ED1i, v\xE0 ch\u1EC9 c\xF3
+    ng\u01B0\u01A1i m\u1EDBi c\xF3 th\u1EC3 kh\xF4i ph\u1EE5c s\u1EF1 c\xE2n b\u1EB1ng
+    cho th\u1EBF gi\u1EDBi n\xE0y."
+  - "H\xE0nh tr\xECnh c\u1EE7a ng\u01B0\u01A1i s\u1EBD d\u1EABn qua s\xE1u v\xF9ng
+    \u0111\u1EA5t kh\xE1c nhau, m\u1ED7i n\u01A1i \u0111\u1EC1u \u1EA9n ch\u1EE9a
+    nh\u1EEFng th\u1EED th\xE1ch v\xE0 b\xED m\u1EADt ri\xEAng, nh\u01B0ng h\xE3y
+    nh\u1EDB r\u1EB1ng s\u1EE9c m\u1EA1nh th\u1EF1c s\u1EF1 \u0111\u1EBFn t\u1EEB
+    vi\u1EC7c l\xE0m tinh khi\u1EBFt c\xE1c tinh th\u1EC3 \u0111\xE3 b\u1ECB \xF4
+    nhi\u1EC5m."
+  - "Trong cu\u1ED9c h\xE0nh tr\xECnh n\xE0y, ng\u01B0\u01A1i s\u1EBD g\u1EB7p nh\u1EEFng
+    ph\xFAc l\u1EE3i b\u1EA5t ng\u1EDD, nh\u01B0ng c\u0169ng c\xF3 nh\u1EEFng k\u1EBB
+    th\xF9 nguy hi\u1EC3m \u0111ang ch\u1EDD \u0111\u1EE3i - h\xE3y s\u1EED d\u1EE5ng
+    c\xE1c k\u1EF9 n\u0103ng \u0111\u1EB7c bi\u1EC7t c\u1EE7a m\xECnh m\u1ED9t c\xE1ch
+    kh\xF4n ngoan \u0111\u1EC3 v\u01B0\u1EE3t qua m\u1ECDi th\u1EED th\xE1ch."
+  - "Nghe n\xE0y, Elara - r\u01B0\u01A1ng b\xE1u cu\u1ED1i c\xF9ng ch\u1EE9a \u0111\u1EF1ng
+    s\u1EE9c m\u1EA1nh c\u1ED5 x\u01B0a \u0111\u01B0\u1EE3c gi\u1EA5u s\xE2u b\xEAn
+    d\u01B0\u1EDBi \u0110\u1EC1n \xC1nh S\xE1ng L\u1EE5i T\xE0n"
+  - "Khi ng\u1ECDn l\u1EEDa xanh xu\u1EA5t hi\u1EC7n tr\xEAn b\u1EA7u tr\u1EDDi,
+    \u0111\xF3 l\xE0 d\u1EA5u hi\u1EC7u cho th\u1EA5y c\xE1nh c\u1ED5ng d\u1EABn
+    t\u1EDBi \u0110\u1EC1n \u0111\xE3 m\u1EDF - h\xE3y nhanh ch\xE2n b\u01B0\u1EDBc
+    qua n\xF3, \u0111\u1ED1i m\u1EB7t v\u1EDBi th\u1EED th\xE1ch cu\u1ED1i c\xF9ng,
+    v\xE0 kh\xF4i ph\u1EE5c l\u1EA1i s\u1EF1 c\xE2n b\u1EB1ng tr\u01B0\u1EDBc khi
+    \u0111\xEAm v\xF4 t\u1EADn nu\u1ED1t ch\u1EEDng ho\xE0n to\xE0n th\u1EBF gi\u1EDBi
+    n\xE0y."
+  autoProgressLines: 0101010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
